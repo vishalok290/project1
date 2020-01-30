@@ -1,0 +1,9 @@
+var host = ["shrink-service.it", "adshrink.it", "www.sito1.it", "sito1.it"];
+(function(d, u, wout) {
+    var a = d.getElementsByTagName('a');
+    for (x = 0; x < a.length; x++) {
+        if (wout.indexOf(a[x].hostname) === -1) {
+            a[x].href = 'https://wwww.shrink-service.it/u/' + u + '/' + window.btoa(a[x].href);
+        }
+    }
+}(document, 'Mzk2NDk=', host));
